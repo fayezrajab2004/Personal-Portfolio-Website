@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of Fayez Rajab, a Software Development student focused on backend development.">
+    <title>Fayez Rajab | Backend Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar" aria-label="Main navigation">
+        <div class="nav-container">
+            <a class="logo" href="#home">Fayez Rajab</a>
+            <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="navLinks">
+                <span class="sr-only">Toggle navigation</span>
+                <i class="fa-solid fa-bars" aria-hidden="true"></i>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" type="button" aria-pressed="false">Dark mode</button>
+        </div>
+        <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="container hero-content">
+            <div class="hero-copy">
+                <p class="eyebrow">Software Development Student</p>
+                <h1>Fayez Rajab | <span class="typewriter-text" aria-live="polite"></span></h1>
+                <p class="hero-description">Building backend systems and APIs using Laravel, PHP, Java, and Spring Boot.
+                </p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#projects">View Projects</a>
+                    <a class="button button-secondary" href="https://github.com/fayezrajab2004" target="_blank"
+                        rel="noopener noreferrer">GitHub</a>
+                    <a class="button button-secondary" href="#contact">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image-wrap">
+                <img src="images/Personal_pic_.png" alt="Portrait of Fayez Rajab" class="hero-image">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section" id="about">
+            <div class="container narrow-container">
+                <p class="section-label">About</p>
+                <h2>About Me</h2>
+                <div class="about-text">
+                    <p>I'm Fayez Rajab, a Software Development student interested in backend development.</p>
+                    <p>I mainly work with PHP, Laravel, Java, Spring Boot, MySQL, and REST APIs. I also have experience
+                        with frontend basics, Git, Docker, and CI/CD.</p>
+                    <p>I enjoy building practical projects, learning new technologies, and improving my development
+                        skills.</p>
+                </div>
+                <!-- Add a Resume button here when a real resume file is available. -->
+            </div>
+        </section>
+
+        <section class="section section-muted" id="skills">
+            <div class="container">
+                <p class="section-label">Technologies</p>
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <h3><i class="fa-solid fa-server" aria-hidden="true"></i> Backend</h3>
+                        <ul class="skill-tags" aria-label="Backend skills">
+                            <li>PHP</li>
+                            <li>Laravel</li>
+                            <li>Java</li>
+                            <li>Spring Boot</li>
+                            <li>REST APIs</li>
+                            <li>Microservices</li>
+                        </ul>
+                    </article>
+                    <article class="skill-card">
+                        <h3><i class="fa-solid fa-database" aria-hidden="true"></i> Database</h3>
+                        <ul class="skill-tags" aria-label="Database skills">
+                            <li>MySQL</li>
+                            <li>MongoDB</li>
+                        </ul>
+                    </article>
+                    <article class="skill-card">
+                        <h3><i class="fa-solid fa-code" aria-hidden="true"></i> Frontend</h3>
+                        <ul class="skill-tags" aria-label="Frontend skills">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>Bootstrap</li>
+                            <li>React - Learning</li>
+                        </ul>
+                    </article>
+                    <article class="skill-card">
+                        <h3><i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i> Tools &amp; DevOps</h3>
+                        <ul class="skill-tags" aria-label="Tools and DevOps skills">
+                            <li>Git</li>
+                            <li>GitHub</li>
+                            <li>Postman</li>
+                            <li>Docker</li>
+                            <li>GitHub Actions</li>
+                            <li>CI/CD</li>
+                            <li>Web Servers</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="education">
+            <div class="container narrow-container">
+                <p class="section-label">Learning Journey</p>
+                <h2>Education</h2>
+                <article class="timeline-card reveal">
+                    <span class="timeline-year">Expected Graduation: 2027</span>
+                    <h3>Software Development</h3>
+                    <p class="card-subtitle">Islamic University of Gaza</p>
+                    <p>Studying software development with focus on backend development, databases, web development, and
+                        software engineering.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section section-muted" id="projects">
+            <div class="container">
+                <p class="section-label">Selected Work</p>
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-heading"><span class="project-number">01</span>
+                            <div>
+                                <h3>Tilqaa</h3>
+                                <p class="card-subtitle">Laravel Backend Team Project</p>
+                            </div>
+                        </div>
+                        <p>A web platform developed as part of a software engineering training program. My role focused
+                            on backend development, including APIs, authentication, database design, and application
+                            logic.</p>
+                        <ul class="tech-list" aria-label="Tilqaa technologies">
+                            <li>Laravel</li>
+                            <li>PHP</li>
+                            <li>MySQL</li>
+                            <li>REST APIs</li>
+                        </ul>
+                        <div class="project-actions">
+                            <a class="project-link" href="https://github.com/Tilqaa-Team/Tilqaa-api.git" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-brands fa-github" aria-hidden="true"></i> View on GitHub
+                            </a>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-heading"><span class="project-number">02</span>
+                            <div>
+                                <h3>Clinic Management System</h3>
+                                <p class="card-subtitle">PHP &amp; MySQL</p>
+                            </div>
+                        </div>
+                        <p>A clinic management system with different roles for doctors, patients, pharmacists, and
+                            administrators. Features include patient management, medication management, authentication,
+                            role-based access, and drug assignment.</p>
+                        <ul class="tech-list" aria-label="Clinic Management System technologies">
+                            <li>PHP</li>
+                            <li>MySQL</li>
+                            <li>Bootstrap</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                        <div class="project-actions">
+                            <a class="project-link"
+                                href="https://github.com/fayezrajab2004/PHP-Clinic-Management-System" target="_blank"
+                                rel="noopener noreferrer">
+                                <i class="fa-brands fa-github" aria-hidden="true"></i> View on GitHub
+                            </a>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-heading"><span class="project-number">03</span>
+                            <div>
+                                <h3>Food Management System</h3>
+                                <p class="card-subtitle">Spring Boot Microservices</p>
+                            </div>
+                        </div>
+                        <p>A backend system built using Java and Spring Boot with a microservices architecture. The
+                            project includes REST APIs and communication between independent services.</p>
+                        <ul class="tech-list" aria-label="Food Management System technologies">
+                            <li>Java</li>
+                            <li>Spring Boot</li>
+                            <li>Microservices</li>
+                            <li>REST APIs</li>
+                        </ul>
+                        <div class="project-actions">
+                            <a class="project-link"
+                                href="https://github.com/fayezrajab2004/Food-Ordering-Microservices.git" target="_blank"
+                                rel="noopener noreferrer">
+                                <i class="fa-brands fa-github" aria-hidden="true"></i> View on GitHub
+                            </a>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-heading"><span class="project-number">04</span>
+                            <div>
+                                <h3>Cloud Deployment Pipeline</h3>
+                                <p class="card-subtitle">CI/CD &amp; DevOps</p>
+                            </div>
+                        </div>
+                        <p>A deployment project focused on automating application build and deployment workflows.</p>
+                        <ul class="tech-list" aria-label="Cloud Deployment Pipeline technologies">
+                            <li>GitHub Actions</li>
+                            <li>Docker</li>
+                            <li>CI/CD</li>
+                            <li>Web Servers</li>
+                        </ul>
+                        <div class="project-actions">
+                            <a class="project-link"
+                                href="https://github.com/fayezrajab2004/Laravel-Cloud-Assignment" target="_blank"
+                                rel="noopener noreferrer">
+                                <i class="fa-brands fa-github" aria-hidden="true"></i> View on GitHub
+                            </a>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-heading"><span class="project-number">05</span>
+                            <div>
+                                <h3>Library Management System</h3>
+                                <p class="card-subtitle">JavaFX</p>
+                            </div>
+                        </div>
+                        <p>A desktop application for managing library records and basic library operations.</p>
+                        <ul class="tech-list" aria-label="Library Management System technologies">
+                            <li>Java</li>
+                            <li>JavaFX</li>
+                        </ul>
+                        <div class="project-actions">
+                            <span class="project-status">Local Project</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="experience">
+            <div class="container">
+                <p class="section-label">Practical Learning</p>
+                <h2>Training &amp; Experience</h2>
+                <div class="experience-grid">
+                    <article class="experience-card reveal">
+                        <span class="timeline-year">2026</span>
+                        <h3>TAQAT Academy</h3>
+                        <p class="card-subtitle">Software Engineering Training</p>
+                        <p>Worked with a team on Tilqaa and focused on backend development using Laravel.</p>
+                    </article>
+                    <article class="experience-card reveal">
+                        <span class="timeline-year">2026</span>
+                        <h3>Aristo Academy</h3>
+                        <p class="card-subtitle">Laravel Training</p>
+                        <p>Worked on backend development using Laravel and practiced building web application features.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section contact-section" id="contact">
+            <div class="container contact-content">
+                <div>
+                    <p class="section-label">Get In Touch</p>
+                    <h2>Contact Me</h2>
+                    <p class="contact-intro">Feel free to connect with me through my professional profiles.</p>
+                </div>
+                <div class="contact-links">
+                    <a href="https://github.com/fayezrajab2004" target="_blank" rel="noopener noreferrer"><i
+                            class="fa-brands fa-github"
+                            aria-hidden="true"></i><span><small>GitHub</small>fayezrajab2004</span></a>
+                    <a href="mailto:fayezrajab92@gmail.com"><i class="fa-solid fa-envelope"
+                            aria-hidden="true"></i><span><small>Email</small>fayezrajab92@gmail.com</span></a>
+                    <a href="https://www.linkedin.com/in/fayez-rajab-843a3924b/" target="_blank"
+                        rel="noopener noreferrer"><i class="fa-brands fa-linkedin"
+                            aria-hidden="true"></i><span><small>LinkedIn</small>Fayez Rajab</span></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <button class="top-button" id="topButton" type="button" aria-label="Back to top"><i class="fa-solid fa-arrow-up"
+            aria-hidden="true"></i></button>
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; <span id="year"></span> Fayez Rajab</p>
+            <div class="footer-links" aria-label="Professional links">
+                <a href="https://github.com/fayezrajab2004" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <!-- Add real LinkedIn and email links here when available. -->
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
